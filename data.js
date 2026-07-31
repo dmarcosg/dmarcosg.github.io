@@ -82,9 +82,9 @@ window.SITE_DATA = {
     note: "I'm regularly looking for motivated PhD students and postdocs. Even if nothing is listed below, feel free to get in touch.",
     openings: [
       {
-        title: "PhD / postdoc positions: vision-language foundation models for agriculture",
-        status: "Expected to open as AgriScienceFM ramps up",
-        description: "New positions on AI foundation models for agricultural sciences are expected to open at Inria Montpellier as the AgriScienceFM project (2026-2029) gets underway.",
+        title: "PhD / postdoc positions: Open-World Species Identification by Emulating Experts.",
+        status: "Expected to open soon in the context of ANR JCJC eTaxonomist",
+        description: "Weakly supervised computer vision methods that emulate expert trait-based reasoning for zero-shot, interpretable species identification.",
         link: ""
       }
       // [ADD real openings here as they're posted; delete this placeholder once you have real ones]
