@@ -119,7 +119,9 @@ window.SITE_DATA = {
     { name: "Pablo Ubilla", role: "PhD student, Inria", note: "Robust deep species distribution models (co-supervised with Christophe Botella and Alexis Joly)", website: "" },
     { name: "Hugo Riffaud de Turckheim", role: "PhD student, Inria", note: "Foundation models for Earth observation (co-supervised with Sylvain Lobry and Roberto Interdonato)", website: "" },
     { name: "Nicolas Houdré", role: "PhD student, Université Paris Cité", note: "Foundation models for Earth observation (co-supervised with Sylvain Lobry, Camille Kurtz, Laurent Wendling and Dino Ienco)", website: "" },
+    { name: "Jonas Klotz", role: "PhD student, BIFOLD / TU Berlin", note: "Computer vision interpretability in remote sensing (co-supervised with Begüm Demir, Cassio Fraga-Dantas, Pallavi Jain and Konstatinos Panousis)", website: "" },
     { name: "Ananthu Aniraj", role: "Postdoctoral researcher, Inria", note: "Interpretable fine-grained recognition", website: "https://ananthu-aniraj.github.io/" },
+    { name: "Noé Flandre", role: "Research engineer, Inria", note: "Foundation models for Earth observation (co-supervised with Roberto Interdonato)", website: "https://noeflandre.com/" },
     { name: "Ron van Bree", role: "PhD student, Wageningen University", note: "Hybrid AI for crop modeling (co-supervised with Ioannis Athanasiadis)", website: "" }
     // [ADD interns and new group members here]
   ],
@@ -136,16 +138,16 @@ window.SITE_DATA = {
   ],
 
   peopleCollaborators: [
-    { name: "Devis Tuia", affiliation: "EPFL, ECEO lab", note: "PhD advisor and frequent collaborator", website: "https://people.epfl.ch/devis.tuia" },
-    { name: "Sylvain Lobry", affiliation: "Université Paris Cité, LIPADE", note: "GEO-ReSeT project co-leader", website: "https://www.sylvainlobry.com/" },
-    { name: "Dino Ienco", affiliation: "INRAE, UMR TETIS / EVERGREEN team", note: "Frequent collaborator on part discovery and concept models", website: "https://sites.google.com/site/dinoienco" },
-    { name: "Roberto Interdonato", affiliation: "Cirad, UMR TETIS", note: "Frequent collaborator (Atomizer, GEO-ReSeT)", website: "" },
-    { name: "Ioannis N. Athanasiadis", affiliation: "Wageningen University", note: "AgriScienceFM coordinator; former postdoc host", website: "https://www.athanasiadis.info/" },
-    { name: "Zeynep Akata", affiliation: "Technical University of Munich / Helmholtz Munich", note: "Frequent collaborator on interpretable and part-based models", website: "https://www.eml-munich.de/people/zeynep-akata" },
-    { name: "Alexis Joly", affiliation: "Inria, ZENITH team", note: "Collaborator on species distribution modeling and GeoLifeCLEF", website: "https://sites.google.com/view/alexis-joly-inria/home" },
-    { name: "Christophe Botella", affiliation: "Inria", note: "Co-supervisor on species distribution modeling", website: "" },
-    { name: "Pierre Bonnet", affiliation: "Cirad, UMR AMAP", note: "Frequent collaborator on species identification and biodiversity data", website: "" },
-    { name: "Cassio F. Dantas", affiliation: "INRAE, UMR TETIS", note: "Frequent collaborator on part discovery (PDiscoNet, PDiscoFormer)", website: "" }
+    { name: "Devis Tuia", affiliation: "EPFL, ECEO lab", note: "", website: "https://people.epfl.ch/devis.tuia" },
+    { name: "Sylvain Lobry", affiliation: "Université Paris Cité, LIPADE", note: "", website: "https://www.sylvainlobry.com/" },
+    { name: "Dino Ienco", affiliation: "INRAE, UMR TETIS / EVERGREEN Inria team", note: "", website: "https://sites.google.com/site/dinoienco" },
+    { name: "Roberto Interdonato", affiliation: "Cirad, UMR TETIS / EVERGREEN Inria team", note: "", website: "" },
+    { name: "Ioannis Athanasiadis", affiliation: "Wageningen University", note: "", website: "https://www.athanasiadis.info/" },
+    { name: "Zeynep Akata", affiliation: "Technical University of Munich / Helmholtz Munich", note: "", website: "https://www.eml-munich.de/people/zeynep-akata" },
+    { name: "Alexis Joly", affiliation: "Inria, ZENITH team", note: "", website: "https://sites.google.com/view/alexis-joly-inria/home" },
+    { name: "Christophe Botella", affiliation: "Inria", note: "", website: "" },
+    { name: "Pierre Bonnet", affiliation: "Cirad, UMR AMAP", note: "", website: "" },
+    { name: "Cassio F. Dantas", affiliation: "INRAE, UMR TETIS / EVERGREEN Inria team", note: "", website: "" }
     // [ADD more collaborators as needed, this list favors the most frequent/recent ones]
   ]
 
