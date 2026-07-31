@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diego Marcos</title>
+<meta name="description" content="Diego Marcos, Junior Professor at Inria, working on machine learning and computer vision for Earth observation and biodiversity.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+<nav class="nav">
+  <div class="wrap">
+    <a class="nav-name" href="#top">Diego Marcos</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#jobs">Openings</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#people">People</a></li>
+      <li><a href="#bio">Bio</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-inner">
+    <img class="hero-photo" id="hero-photo" alt="Diego Marcos" onerror="this.style.display='none'">
+    <p class="eyebrow" id="hero-role-eyebrow">-</p>
+    <h1 id="hero-name">&nbsp;</h1>
+    <p class="role" id="hero-location">&nbsp;</p>
+    <p class="thesis" id="hero-thesis">&nbsp;</p>
+    <p class="hero-email"><a id="hero-email-link" href="#"></a></p>
+    <ul class="hero-links" id="hero-links"></ul>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap">
+    <div class="section-head"><h2>About</h2></div>
+    <p class="bio" id="about-text"></p>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="section-head"><h2>Projects</h2></div>
+    <div id="projects-list"></div>
+  </div>
+</section>
+
+<section id="jobs">
+  <div class="wrap">
+    <div class="section-head"><h2>Job openings</h2></div>
+    <p class="jobs-note" id="jobs-note"></p>
+    <div id="jobs-list"></div>
+  </div>
+</section>
+
+<section id="publications">
+  <div class="wrap">
+    <div class="section-head"><h2>Publications</h2></div>
+    <div id="pub-list"></div>
+    <p class="pub-more" id="pub-more"></p>
+  </div>
+</section>
+
+<section id="news">
+  <div class="wrap">
+    <div class="section-head"><h2>News</h2></div>
+    <div id="news-list"></div>
+  </div>
+</section>
+
+<section id="people">
+  <div class="wrap">
+    <div class="section-head"><h2>People I'm working with</h2></div>
+
+    <h3 class="people-subhead">Current: PhDs, postdocs &amp; interns</h3>
+    <ul class="people-list" id="people-current"></ul>
+
+    <h3 class="people-subhead">Alumni</h3>
+    <ul class="people-list" id="people-alumni"></ul>
+
+    <h3 class="people-subhead">Frequent collaborators</h3>
+    <ul class="people-list" id="people-collaborators"></ul>
+  </div>
+</section>
+
+<section id="bio">
+  <div class="wrap">
+    <div class="section-head"><h2>Bio</h2></div>
+    <ul class="timeline" id="timeline-list"></ul>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Last updated <span id="build-year"></span>.</div>
+</footer>
+</div>
+
+<script src="data.js"></script>
+<script src="site.js"></script>
+</body>
+</html>

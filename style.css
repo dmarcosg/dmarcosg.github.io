@@ -1,0 +1,180 @@
+:root{
+  /* ---- plain palette: near-white paper, near-black ink, one accent ---- */
+  --bg:        #FFFFFF;   /* text column background */
+  --bg-raise:  #F4F4F4;
+  --margin-bg: #F2F1ED;   /* margin background, either side of the column */
+  --divider:   #D9D9D3;   /* vertical column dividers */
+  --ink:       #1A1A1A;
+  --ink-soft:  #5A5A5A;
+  --line:      #E0E0E0;
+  --accent:    #2D1B4E; /* single dark indigo accent, used for links only */
+
+  --font: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+
+  --max: 760px;
+  --pad: clamp(20px, 5vw, 48px);
+}
+
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  background:var(--margin-bg);
+  color:var(--ink);
+  font-family:var(--font);
+  font-size:16px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+
+.page{
+  max-width:900px;
+  margin:0 auto;
+  background:var(--bg);
+  border-left:1px solid var(--divider);
+  border-right:1px solid var(--divider);
+  min-height:100vh;
+}
+
+a{color:var(--accent); text-decoration-thickness:1px; text-underline-offset:2px;}
+a:hover{text-decoration:underline;}
+a:focus-visible, button:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+
+.wrap{max-width:var(--max); margin:0 auto; padding:0 var(--pad);}
+
+/* ---------- nav ---------- */
+.nav{
+  position:sticky; top:0; z-index:20;
+  background:rgba(255,255,255,0.92);
+  border-bottom:1px solid var(--line);
+}
+.nav .wrap{
+  display:flex; align-items:center; justify-content:space-between;
+  padding-top:12px; padding-bottom:12px;
+  max-width:900px; flex-wrap:wrap; gap:8px 0;
+}
+.nav-name{
+  font-weight:700; font-size:1rem;
+  color:var(--ink); text-decoration:none;
+}
+.nav-links{display:flex; flex-wrap:wrap; gap:6px 16px; list-style:none; margin:0; padding:0;}
+.nav-links a{
+  font-size:0.85rem; color:var(--ink-soft); text-decoration:none;
+}
+.nav-links a:hover{color:var(--accent); text-decoration:underline;}
+
+/* ---------- hero ---------- */
+.hero{
+  padding:40px var(--pad) 32px;
+  border-bottom:1px solid var(--line);
+}
+.hero-inner{max-width:640px; margin:0 auto;}
+.hero-photo{
+  width:96px; height:96px; border-radius:6px;
+  object-fit:cover; display:block; margin-bottom:16px;
+  border:1px solid var(--line);
+}
+.eyebrow{
+  font-size:0.9rem; color:var(--ink-soft); margin:0 0 6px;
+}
+.hero h1{
+  font-weight:700;
+  font-size:clamp(1.8rem, 4vw, 2.2rem);
+  line-height:1.2; margin:0 0 6px; color:var(--ink);
+}
+.hero .role{
+  font-size:1rem; color:var(--ink-soft); margin:0 0 16px;
+}
+.hero .thesis{
+  font-size:1rem; line-height:1.5; color:var(--ink); max-width:60ch;
+  margin:0 0 18px;
+}
+.hero-email{margin:0 0 12px; font-size:0.95rem;}
+.hero-links{display:flex; flex-wrap:wrap; gap:4px 14px; padding:0; margin:0; list-style:none;}
+.hero-links li{font-size:0.9rem; color:var(--ink-soft);}
+.hero-links a{color:var(--accent); text-decoration:none;}
+.hero-links a:hover{text-decoration:underline;}
+
+/* ---------- section scaffolding ---------- */
+section{padding:36px var(--pad);}
+section + section{border-top:1px solid var(--line);}
+.section-head{margin-bottom:18px;}
+.section-head h2{
+  font-weight:700; font-size:1.25rem; margin:0; color:var(--ink);
+}
+
+/* ---------- about ---------- */
+.bio{max-width:64ch; color:var(--ink-soft); margin:0;}
+
+/* ---------- projects / job openings ---------- */
+.project{padding:16px 0; border-top:1px solid var(--line);}
+.project:first-child{border-top:none; padding-top:0;}
+.project-title{font-weight:700; color:var(--ink); margin:0 0 2px;}
+.project-period{font-size:0.85rem; color:var(--ink-soft);}
+.project-desc{color:var(--ink-soft); margin:6px 0 0; font-size:0.95rem; max-width:68ch;}
+.project-desc a{white-space:nowrap;}
+
+.jobs-note{color:var(--ink-soft); margin:0 0 18px; max-width:60ch;}
+
+/* ---------- publications ---------- */
+.pub{display:grid; grid-template-columns:44px 1fr; gap:12px; padding:14px 0; border-top:1px solid var(--line);}
+.pub:first-child{border-top:none; padding-top:0;}
+.pub-year{font-size:0.85rem; color:var(--ink-soft); font-weight:500;}
+.pub-body{display:flex; gap:12px; align-items:flex-start;}
+.pub-thumb{
+  width:88px; height:62px; object-fit:cover; border-radius:3px;
+  border:1px solid var(--line); flex-shrink:0; background:var(--bg-raise);
+}
+.pub-thumb-empty{background:var(--bg-raise);}
+.pub-text{flex:1; min-width:0;}
+.pub-title{font-weight:600; font-size:0.98rem; margin:0 0 3px; line-height:1.35;}
+.pub-title em{font-style:italic;}
+.pub-meta{color:var(--ink-soft); font-size:0.88rem; margin:0 0 4px;}
+.pub-links{font-size:0.85rem; margin:0 0 6px;}
+.pub-links a{color:var(--accent); text-decoration:none;}
+.pub-links a:hover{text-decoration:underline;}
+.pub-tags{margin:0; display:flex; flex-wrap:wrap; gap:6px;}
+.tag{
+  font-size:0.72rem; color:var(--ink-soft); background:var(--bg-raise);
+  border:1px solid var(--line); border-radius:3px; padding:2px 7px;
+}
+.pub-more{margin-top:14px; font-size:0.9rem;}
+
+/* ---------- news ---------- */
+.news-item{display:grid; grid-template-columns:70px 1fr; gap:12px; padding:10px 0; border-top:1px solid var(--line);}
+.news-item:first-child{border-top:none; padding-top:0;}
+.news-date{font-size:0.85rem; color:var(--ink-soft);}
+
+/* ---------- people (plain single-line list) ---------- */
+.people-subhead{
+  font-weight:700; font-size:1rem; color:var(--ink); margin:24px 0 8px;
+}
+.people-subhead:first-of-type{margin-top:0;}
+.people-list{list-style:none; margin:0 0 8px; padding:0;}
+.people-list li{
+  padding:6px 0; border-top:1px solid var(--line);
+  font-size:0.94rem; color:var(--ink-soft); line-height:1.5;
+}
+.people-list li:first-child{border-top:none;}
+.people-list li strong{color:var(--ink); font-weight:600;}
+
+/* ---------- bio timeline ---------- */
+.timeline{list-style:none; margin:0; padding:0; display:grid; gap:12px;}
+.timeline li{
+  display:grid; grid-template-columns:130px 1fr; gap:14px; align-items:baseline;
+}
+.timeline .years{font-size:0.85rem; color:var(--ink-soft); font-weight:500;}
+.timeline .role{font-weight:600; color:var(--ink);}
+.timeline .place{color:var(--ink-soft); font-size:0.92rem;}
+
+/* ---------- footer ---------- */
+footer{
+  padding:24px var(--pad) 40px; text-align:center;
+  font-size:0.8rem; color:var(--ink-soft);
+}
+
+/* ---------- responsive ---------- */
+@media (max-width:600px){
+  .nav-links{gap:10px;}
+  .timeline li, .pub, .news-item{grid-template-columns:1fr;}
+}
