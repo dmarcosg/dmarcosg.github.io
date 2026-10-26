@@ -2,7 +2,7 @@
 # To show no positions, use:  openings: []
 note: I'm regularly looking for motivated PhD students. Even if no position is listed, feel free to get in touch.
 openings:
-- title: "PhD position: Open-World Species Identification by Emulating Experts."
-  status: Expected to open soon in the context of ANR JCJC eTaxonomist
+- title: "PhD position to open in 2027: Open-World Species Identification by Emulating Experts."
+  status: In the context of ANR JCJC eTaxonomist
   description: Weakly supervised computer vision methods that emulate expert trait-based reasoning for zero-shot, interpretable species identification.
   link: ""
