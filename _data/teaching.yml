@@ -1,0 +1,11 @@
+# Courses, shown on the Teaching page. Current courses first.
+- title: "Data Science Avancée"
+  institution: "Polytech Montpellier, IG5 (Informatique et Gestion, 5th year)"
+  period: "Since 2022/2023"
+  description: "Advanced data science course in the 5th year of the computer science and management engineering program."
+  link: "https://formations.umontpellier.fr/fr/formations/diplome-d-ingenieur-FI/diplome-d-ingenieur-informatique-IPNZPS8G/informatique-et-gestion-KKMJ14ZM/informatique-et-gestion-5eme-annee-KMOY06KR.html"
+- title: "Introduction to Deep Learning"
+  institution: "Polytech Montpellier, DO5 (5th year)"
+  period: "Since 2022/2023"
+  description: "Introduction to deep learning for engineering students."
+  link: ""

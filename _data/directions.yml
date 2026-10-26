@@ -1,0 +1,36 @@
+# Research directions, shown on the Research page (/research/), in this order.
+# They are also the filter labels on the Projects and Publications pages.
+# id: short name used in the "directions" field of each project file.
+# description: Markdown is allowed (links, *italics*, several paragraphs with a blank line).
+# label: short name for the filter buttons on the Projects and Publications pages.
+# color: used for the bar on the Research page and the labels and filter buttons elsewhere.
+# key_publications: ids from _data/publications.yml, shown on the Research page (1 or 2).
+# image: optional, e.g. images/directions/biodiversity.jpg, or "".
+# DRAFT TEXT: replace the titles and descriptions with your own.
+
+- id: interpretability
+  title: Interpretable visual recognition
+  label: Interpretability
+  color: "#E07A1F"
+  key_publications: [aniraj2024pdiscoformer, panousis2024coarse]
+  image: ""
+  description: |
+    Models that explain their predictions in terms people can check, such as object parts and visual concepts. A main use case is fine-grained recognition, where experts rely on specific traits to tell similar species apart.
+
+- id: biodiversity
+  title: Biodiversity monitoring
+  label: Biodiversity
+  color: "#2E9E6A"
+  key_publications: [ryckewaert2026maxent, tagle2025palms]
+  image: ""
+  description: |
+    Machine learning for species identification and species distribution modelling, from citizen-science photos to field data, to support mapping and monitoring of biodiversity.
+
+- id: earth-observation
+  title: Multimodal Earth observation
+  label: Earth observation
+  color: "#2F6FEB"
+  key_publications: [riffaud2025atomizer, marcos2018contours]
+  image: ""
+  description: |
+    General models for satellite and aerial imagery that combine several sensors and data types, including text, and transfer to new tasks in agriculture and environmental monitoring.

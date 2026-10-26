@@ -1,0 +1,19 @@
+# Your name, contact details, links and about text (shown on the About page).
+name: Diego Marcos
+role: Junior Professor, Inria
+location: Inria Centre at Université Côte d'Azur, Montpellier antenna, France
+team: EVERGREEN team
+about: I work at the interface between computer vision and remote sensing, developing more interpretable machine learning models for environmental applications, with a particular focus on mapping the world's biodiversity. I'm equally interested in applying these models, and helping others apply them, to real and impactful problems.
+email: diego.marcos@inria.fr
+photo: images/diego-marcos.jpg
+links:
+- label: Google Scholar
+  url: "https://scholar.google.ch/citations?user=IUqydU0AAAAJ&hl=en"
+- label: EVERGREEN team
+  url: "https://team.inria.fr/evergreen/"
+- label: GitHub
+  url: "https://github.com/dmarcosg"
+- label: LinkedIn
+  url: "https://www.linkedin.com/in/diego-marcos-8927bb20b/"
+- label: Bluesky
+  url: "https://bsky.app/profile/dmarcosg.bsky.social"

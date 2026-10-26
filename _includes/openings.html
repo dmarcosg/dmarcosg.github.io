@@ -1,0 +1,9 @@
+{% assign jobs = site.data.jobs %}
+{% for j in jobs.openings %}
+<div class="entry">
+  <p class="entry-title">{% if j.link != "" %}<a href="{{ j.link }}" target="_blank" rel="noopener">{{ j.title }}</a>{% else %}{{ j.title }}{% endif %}</p>
+  <p class="meta">{{ j.status }}</p>
+  <p>{{ j.description }}</p>
+</div>
+{% endfor %}
+<p class="meta">{{ jobs.note }} Contact: <a href="mailto:{{ site.data.person.email }}">{{ site.data.person.email }}</a>.</p>

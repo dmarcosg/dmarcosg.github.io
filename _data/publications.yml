@@ -1,0 +1,86 @@
+# Selected publications. Full list is on Google Scholar.
+# id: short unique name, used to pick key papers in _data/directions.yml.
+# pdf: arXiv/HAL/open-access PDF, or "".  thumbnail: e.g. images/pubs/atomizer.jpg, or "".
+# directions: ids from _data/directions.yml (used for the filter buttons).
+# projects: file names (without .md) of the project pages this paper belongs to,
+#   e.g. [etaxonomist, geo-reset]. The paper is then listed on those project pages.
+- id: ryckewaert2026maxent
+  year: '2026'
+  title: Applying the maximum entropy principle to neural networks enhances multi-species distribution models
+  venue: Methods in Ecology and Evolution
+  authors: Ryckewaert, Marcos, Botella, Servajean, Bonnet, Joly
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [biodiversity]
+  projects: []
+- id: riffaud2025atomizer
+  year: '2025'
+  title: "Atomizer: generalizing to new modalities by breaking satellite images down to a set of scalars"
+  venue: BMVC 2025 (Best Presentation Award)
+  authors: Riffaud de Turckheim, Lobry, Interdonato, Marcos
+  pdf: "https://arxiv.org/pdf/2506.13542"
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: tagle2025palms
+  year: '2025'
+  title: Effective integration of drone technology for mapping and managing palm species in the Peruvian Amazon
+  venue: Nature Communications
+  authors: Tagle Casapia, Cardenas, Marcos, Fernández, Bartholomeus, et al.
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation, biodiversity]
+  projects: []
+- id: aniraj2024pdiscoformer
+  year: '2024'
+  title: "PDiscoFormer: relaxing part discovery constraints with vision transformers"
+  venue: ECCV 2024
+  authors: Aniraj, Dantas, Ienco, Marcos
+  pdf: "https://arxiv.org/pdf/2407.04538"
+  link: ""
+  thumbnail: ""
+  directions: [interpretability]
+  projects: []
+- id: panousis2024coarse
+  year: '2024'
+  title: Coarse-to-fine concept bottleneck models
+  venue: NeurIPS 2024
+  authors: Panousis, Ienco, Marcos
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [interpretability]
+  projects: []
+- id: vanderklis2023pdisconet
+  year: '2023'
+  title: "PDiscoNet: semantically consistent part discovery for fine-grained recognition"
+  venue: ICCV 2023
+  authors: van der Klis, Alaniz, Mancini, Dantas, Ienco, Akata, Marcos
+  pdf: "https://arxiv.org/pdf/2309.03173"
+  link: ""
+  thumbnail: ""
+  directions: [interpretability]
+  projects: []
+- id: marcos2018contours
+  year: '2018'
+  title: Learning deep structured active contours end-to-end
+  venue: CVPR 2018
+  authors: Marcos, Tuia, Kellenberger, Zhang, Bai, Liao, Urtasun
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: marcos2017rotation
+  year: '2017'
+  title: Rotation equivariant vector field networks
+  venue: ICCV 2017
+  authors: Marcos, Volpi, Komodakis, Tuia
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []

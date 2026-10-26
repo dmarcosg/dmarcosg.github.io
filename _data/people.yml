@@ -1,0 +1,100 @@
+# People, shown in the "People I'm working with" section.
+current:
+- name: Pablo Ubilla
+  role: PhD student, Inria
+  note: Robust deep species distribution models (co-supervised with Christophe Botella and Alexis Joly)
+  website: ""
+- name: Hugo Riffaud de Turckheim
+  role: PhD student, Inria
+  note: Foundation models for Earth observation (co-supervised with Sylvain Lobry and Roberto Interdonato)
+  website: ""
+- name: Nicolas Houdré
+  role: PhD student, Université Paris Cité
+  note: Foundation models for Earth observation (co-supervised with Sylvain Lobry, Camille Kurtz, Laurent Wendling and Dino Ienco)
+  website: ""
+- name: Jonas Klotz
+  role: PhD student, BIFOLD / TU Berlin
+  note: Computer vision interpretability in remote sensing (co-supervised with Begüm Demir, Cassio Fraga-Dantas, Pallavi Jain and Konstatinos Panousis)
+  website: ""
+- name: Ananthu Aniraj
+  role: Postdoctoral researcher, Inria
+  note: Interpretable fine-grained recognition
+  website: "https://ananthu-aniraj.github.io/"
+- name: Noé Flandre
+  role: Research engineer, Inria
+  note: Foundation models for Earth observation (co-supervised with Roberto Interdonato)
+  website: "https://noeflandre.com/"
+- name: Ron van Bree
+  role: PhD student, Wageningen University
+  note: Hybrid AI for crop modeling (co-supervised with Ioannis Athanasiadis)
+  website: ""
+alumni:
+- name: Valerie Zermatten
+  role: PhD, EPFL (2021-2026)
+  note: Mapping ecosystems with deep learning and extremely multi-modal data (awarded May 2026)
+  website: ""
+- name: Alex Levering
+  role: PhD, Wageningen University (2019-2024)
+  note: Landscape quality assessments using deep learning (awarded January 2024)
+  website: ""
+- name: Robert Masolele
+  role: PhD, Wageningen University (2019-2023)
+  note: Assessing land use following tropical deforestation (awarded April 2023)
+  website: ""
+- name: Pallavi Jain
+  role: Postdoc, CIHEAM-IAMM and Inria (2023-2026)
+  note: Text/satellite cross-modal self-supervised learning (co-supervised with Tristan Berchoux, Dino Ienco, and Roberto Interdonato)
+  website: ""
+- name: Konstantinos Panousis
+  role: Postdoc, Inria (2023-2025)
+  note: Probabilistic concept bottleneck models
+  website: ""
+- name: Maxime Ryckewaert
+  role: Postdoc, Inria (2023-2025)
+  note: Deep learning for ecological modeling (co-supervised with Alexis Joly)
+  website: ""
+- name: Laura Cue
+  role: Postdoc, Wageningen University (2022-2025)
+  note: Predicting deforestation using satellite data and AI (co-supervised with Johannes Reiche)
+  website: ""
+collaborators:
+- name: Devis Tuia
+  affiliation: EPFL, ECEO lab
+  note: ""
+  website: "https://people.epfl.ch/devis.tuia"
+- name: Sylvain Lobry
+  affiliation: Université Paris Cité, LIPADE
+  note: ""
+  website: "https://www.sylvainlobry.com/"
+- name: Dino Ienco
+  affiliation: INRAE, UMR TETIS / EVERGREEN Inria team
+  note: ""
+  website: "https://sites.google.com/site/dinoienco"
+- name: Roberto Interdonato
+  affiliation: Cirad, UMR TETIS / EVERGREEN Inria team
+  note: ""
+  website: ""
+- name: Ioannis Athanasiadis
+  affiliation: Wageningen University
+  note: ""
+  website: "https://www.athanasiadis.info/"
+- name: Zeynep Akata
+  affiliation: Technical University of Munich / Helmholtz Munich
+  note: ""
+  website: "https://www.eml-munich.de/people/zeynep-akata"
+- name: Alexis Joly
+  affiliation: Inria, ZENITH team
+  note: ""
+  website: "https://sites.google.com/view/alexis-joly-inria/home"
+- name: Christophe Botella
+  affiliation: Inria
+  note: ""
+  website: ""
+- name: Pierre Bonnet
+  affiliation: Cirad, UMR AMAP
+  note: ""
+  website: ""
+- name: Cassio F. Dantas
+  affiliation: INRAE, UMR TETIS / EVERGREEN Inria team
+  note: ""
+  website: ""

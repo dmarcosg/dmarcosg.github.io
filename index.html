@@ -1,110 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Diego Marcos</title>
-<meta name="description" content="Diego Marcos, Junior Professor at Inria, working on machine learning and computer vision for Earth observation and biodiversity.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=2">
-</head>
-<body>
+---
+layout: default
+title: About me
+---
+{% assign me = site.data.person %}
+<div class="prose">{{ me.about | markdownify }}</div>
 
-<div class="page">
-<nav class="nav">
-  <div class="wrap">
-    <a class="nav-name" href="#top">Diego Marcos</a>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#jobs">Openings</a></li>
-      <li><a href="#publications">Publications</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#people">People</a></li>
-      <li><a href="#bio">Bio</a></li>
-    </ul>
-  </div>
-</nav>
-
-<header class="hero" id="top">
-  <div class="hero-inner">
-    <img class="hero-photo" id="hero-photo" alt="Diego Marcos" onerror="this.style.display='none'">
-    <p class="eyebrow" id="hero-role-eyebrow">-</p>
-    <h1 id="hero-name">&nbsp;</h1>
-    <p class="role" id="hero-location">&nbsp;</p>
-    <p class="thesis" id="hero-thesis">&nbsp;</p>
-    <p class="hero-email"><a id="hero-email-link" href="#"></a></p>
-    <ul class="hero-links" id="hero-links"></ul>
-  </div>
-</header>
-
-<section id="about">
-  <div class="wrap">
-    <div class="section-head"><h2>About</h2></div>
-    <p class="bio" id="about-text"></p>
-  </div>
-</section>
-
-<section id="projects">
-  <div class="wrap">
-    <div class="section-head"><h2>Projects</h2></div>
-    <div id="projects-list"></div>
-  </div>
-</section>
-
-<section id="jobs">
-  <div class="wrap">
-    <div class="section-head"><h2>Job openings</h2></div>
-    <p class="jobs-note" id="jobs-note"></p>
-    <div id="jobs-list"></div>
-  </div>
-</section>
-
-<section id="publications">
-  <div class="wrap">
-    <div class="section-head"><h2>Publications</h2></div>
-    <div id="pub-list"></div>
-    <p class="pub-more" id="pub-more"></p>
-  </div>
-</section>
-
-<section id="news">
-  <div class="wrap">
-    <div class="section-head"><h2>News</h2></div>
-    <div id="news-list"></div>
-  </div>
-</section>
-
-<section id="people">
-  <div class="wrap">
-    <div class="section-head"><h2>People I'm working with</h2></div>
-
-    <h3 class="people-subhead">Current: PhDs, postdocs &amp; interns</h3>
-    <ul class="people-list" id="people-current"></ul>
-
-    <h3 class="people-subhead">Alumni</h3>
-    <ul class="people-list" id="people-alumni"></ul>
-
-    <h3 class="people-subhead">Frequent collaborators</h3>
-    <ul class="people-list" id="people-collaborators"></ul>
-  </div>
-</section>
-
-<section id="bio">
-  <div class="wrap">
-    <div class="section-head"><h2>Bio</h2></div>
-    <ul class="timeline" id="timeline-list"></ul>
-  </div>
-</section>
-
-<footer>
-  <div class="wrap">Last updated <span id="build-year"></span>.</div>
-</footer>
+{% if site.data.jobs.openings.size > 0 %}
+<div class="notice">
+  <strong>Open positions.</strong>
+  {% for j in site.data.jobs.openings %}{{ j.title }} {% endfor %}
+  <a href="{{ '/people/' | relative_url }}#openings">Details</a>
 </div>
+{% endif %}
 
-<script src="data.js?v=2"></script>
-<script src="site.js?v=2"></script>
-</body>
-</html>
+<h2>Service</h2>
+<ul class="service">
+  {% for s in site.data.service %}
+  <li><span class="service-role">{{ s.role }}</span>, {% if s.link != "" %}<a href="{{ s.link }}" target="_blank" rel="noopener">{{ s.venue }}</a>{% else %}{{ s.venue }}{% endif %}{% if s.period != "" %} <span class="meta-inline">({{ s.period }})</span>{% endif %}</li>
+  {% endfor %}
+</ul>
+
+<h2>News</h2>
+{% assign shown = 6 %}
+<table class="news">
+  {% for n in site.data.news limit: shown %}
+  <tr><td class="news-date">{{ n.date }}</td><td>{{ n.text }}</td></tr>
+  {% endfor %}
+</table>
+{% if site.data.news.size > shown %}
+<details class="older">
+  <summary>Older news</summary>
+  <table class="news">
+    {% for n in site.data.news offset: shown %}
+    <tr><td class="news-date">{{ n.date }}</td><td>{{ n.text }}</td></tr>
+    {% endfor %}
+  </table>
+</details>
+{% endif %}
+
+<h2>Career</h2>
+<table class="news timeline">
+  {% for t in site.data.timeline %}
+  <tr><td class="news-date">{{ t.years }}</td><td><span class="timeline-role">{{ t.role }}</span><br><span class="meta-inline">{{ t.place }}</span></td></tr>
+  {% endfor %}
+</table>

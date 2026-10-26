@@ -1,0 +1,19 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+<p>Funded projects I lead or take part in. See <a href="{{ '/research/' | relative_url }}">research</a> for how they fit together.</p>
+{% include filter.html %}
+
+{% assign projects = site.projects | sort: "order" %}
+<section class="filter-group">
+  {% for p in projects %}
+  <div class="entry" data-labels="{{ p.directions | join: '|' }}">
+    <p class="entry-title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></p>
+    <p class="meta">{{ p.period }}{% if p.role != "" %}<br>{{ p.role }}{% endif %}</p>
+    <p class="entry-summary">{{ p.summary }}</p>
+    {% include direction-labels.html ids=p.directions %}
+  </div>
+  {% endfor %}
+</section>

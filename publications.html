@@ -1,0 +1,16 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+{% assign scholar = site.data.person.links | where: "label", "Google Scholar" | first %}
+<p>Selected publications.{% if scholar %} The full list is on <a href="{{ scholar.url }}" target="_blank" rel="noopener">Google Scholar</a>.{% endif %}</p>
+{% include filter.html %}
+
+{% assign by_year = site.data.publications | group_by: "year" %}
+{% for g in by_year %}
+<section class="filter-group">
+  <h2>{{ g.name }}</h2>
+  {% for p in g.items %}{% include publication.html pub=p show_projects=true show_labels=true hide_year=true %}{% endfor %}
+</section>
+{% endfor %}

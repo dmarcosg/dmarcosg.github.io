@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% if page.title and page.url != "/" %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ page.summary | default: site.description | strip_html | escape }}">
+<script>
+  // Apply the saved light/dark choice before the page draws.
+  try { var t = localStorage.getItem("theme"); if (t) document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/style.css' | relative_url }}?v=5">
+</head>
+<body>
+{% assign me = site.data.person %}
+<div class="layout">
+
+  <aside class="sidebar">
+    <div class="card profile">
+      {% if me.photo != "" %}<img class="profile-photo" src="{{ me.photo | relative_url }}" alt="{{ me.name }}">{% endif %}
+      <div class="profile-text">
+        <p class="profile-name">{{ me.name }}</p>
+        <p class="profile-line">{{ me.role }}</p>
+        <p class="profile-line">{{ me.team }}</p>
+        <p class="profile-line">{{ me.location }}</p>
+        <p class="profile-line"><a href="mailto:{{ me.email }}">{{ me.email }}</a></p>
+        <ul class="profile-links">{% for l in me.links %}<li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a></li>{% endfor %}</ul>
+      </div>
+    </div>
+
+    <nav class="card menu" aria-label="Main menu">
+      <ul>
+        {% for item in site.data.nav %}
+        {% assign start = page.url | slice: 0, item.url.size %}
+        {% assign active = false %}
+        {% if item.url == "/" %}{% if page.url == "/" %}{% assign active = true %}{% endif %}
+        {% elsif start == item.url %}{% assign active = true %}
+        {% elsif item.url == "/projects/" and page.collection == "projects" %}{% assign active = true %}{% endif %}
+        <li><a href="{{ item.url | relative_url }}"{% if active %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+      <button class="theme-toggle" type="button" id="theme-toggle">dark mode</button>
+    </nav>
+  </aside>
+
+  <main class="panel">
+    <div class="panel-head"><h1>{{ page.title }}</h1></div>
+    <div class="panel-body">
+{{ content }}
+    </div>
+  </main>
+
+</div>
+<footer>Last updated {{ site.time | date: "%B %Y" }}.</footer>
+<script src="{{ '/js/site.js' | relative_url }}?v=5"></script>
+</body>
+</html>
