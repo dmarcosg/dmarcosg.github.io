@@ -7,7 +7,7 @@ title: About me
 
 {% if site.data.jobs.openings.size > 0 %}
 <div class="notice">
-  <strong>Open positions.</strong>
+  <strong>Positions.</strong>
   {% for j in site.data.jobs.openings %}{{ j.title }} {% endfor %}
   <a href="{{ '/people/' | relative_url }}#openings">Details</a>
 </div>
