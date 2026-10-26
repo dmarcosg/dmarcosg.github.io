@@ -1,0 +1,22 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+{% comment %}
+  Edit the intro text below. Directions, their texts and key papers come from _data/directions.yml.
+{% endcomment %}
+<p class="prose">My research is organized around the directions below.</p>
+
+{% for d in site.data.directions %}
+<section class="direction" id="{{ d.id }}" style="--c: {{ d.color | default: '#888' }}">
+  <h2>{{ d.title }}</h2>
+  {% if d.image != "" and d.image %}<img class="wide-image" src="{{ d.image | relative_url }}" alt="">{% endif %}
+  <div class="prose">{{ d.description | markdownify }}</div>
+  {% if d.key_publications.size > 0 %}
+  <p class="sublabel">Key publications</p>
+  {% for id in d.key_publications %}{% assign p = site.data.publications | where: "id", id | first %}{% if p %}{% include publication.html pub=p %}{% endif %}{% endfor %}
+  {% endif %}
+  <p class="direction-links"><a href="{{ '/projects/' | relative_url }}#{{ d.id }}">Related projects</a><a href="{{ '/publications/' | relative_url }}#{{ d.id }}">All related publications</a></p>
+</section>
+{% endfor %}

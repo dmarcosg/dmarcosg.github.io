@@ -1,0 +1,1 @@
+{% if include.ids.size > 0 %}<p class="labels">{% for id in include.ids %}{% assign d = site.data.directions | where: "id", id | first %}{% if d %}<span class="label" style="--c: {{ d.color | default: '#888' }}"><span class="dot"></span>{{ d.label | default: d.title }}</span>{% endif %}{% endfor %}</p>{% endif %}

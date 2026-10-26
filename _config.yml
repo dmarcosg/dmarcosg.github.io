@@ -1,0 +1,16 @@
+title: Diego Marcos
+description: Diego Marcos, Junior Professor at Inria, working on machine learning and computer vision for Earth observation and biodiversity.
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+exclude:
+  - README.md
+
+defaults:
+  - scope:
+      type: projects
+    values:
+      layout: project

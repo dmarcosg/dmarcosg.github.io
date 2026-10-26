@@ -1,0 +1,12 @@
+---
+layout: default
+title: Teaching
+permalink: /teaching/
+---
+{% for c in site.data.teaching %}
+<div class="entry">
+  <p class="entry-title">{% if c.link != "" %}<a href="{{ c.link }}" target="_blank" rel="noopener">{{ c.title }}</a>{% else %}{{ c.title }}{% endif %}</p>
+  <p class="meta">{{ c.institution }}{% if c.period != "" %}, {{ c.period }}{% endif %}</p>
+  <p>{{ c.description }}</p>
+</div>
+{% endfor %}

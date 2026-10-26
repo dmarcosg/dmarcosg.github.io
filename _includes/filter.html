@@ -1,0 +1,4 @@
+{% comment %} Filter buttons, one per research direction. Works with items that have data-labels. {% endcomment %}
+<div class="filter" data-filter aria-label="Filter by research direction">
+  <button type="button" data-label="" aria-pressed="true">all</button>{% for d in site.data.directions %}<button type="button" data-label="{{ d.id }}" aria-pressed="false" style="--c: {{ d.color | default: '#888' }}"><span class="dot"></span>{{ d.label | default: d.title }}</button>{% endfor %}
+</div>

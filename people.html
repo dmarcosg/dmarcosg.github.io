@@ -1,0 +1,18 @@
+---
+layout: default
+title: People
+permalink: /people/
+---
+<p>Students, postdocs and engineers I supervise or co-supervise, and colleagues I work with regularly.</p>
+
+<h2 id="openings">Open positions</h2>
+{% include openings.html %}
+
+<h2>Current: PhDs, postdocs and interns</h2>
+<ul class="people-list">{% for p in site.data.people.current %}{% include person.html person=p %}{% endfor %}</ul>
+
+<h2>Alumni</h2>
+<ul class="people-list">{% for p in site.data.people.alumni %}{% include person.html person=p %}{% endfor %}</ul>
+
+<h2>Frequent collaborators</h2>
+<ul class="people-list">{% for p in site.data.people.collaborators %}{% include person.html person=p %}{% endfor %}</ul>

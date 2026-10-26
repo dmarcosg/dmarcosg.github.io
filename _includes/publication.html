@@ -1,0 +1,11 @@
+{% assign p = include.pub %}
+<div class="pub{% if p.thumbnail == "" or p.thumbnail == nil %} no-thumb{% endif %}" data-labels="{{ p.directions | join: '|' }}">
+  {% if p.thumbnail != "" and p.thumbnail %}<img class="pub-thumb" src="{{ p.thumbnail | relative_url }}" alt="" loading="lazy">{% endif %}
+  <div class="pub-text">
+    <p class="pub-title">{{ p.title }}</p>
+    <p class="pub-meta">{{ p.authors }}<br><span class="pub-venue">{{ p.venue }}</span>{% unless include.hide_year or p.venue contains p.year %}, {{ p.year }}{% endunless %}</p>
+    {% if p.pdf != "" or p.link != "" %}<p class="pub-links">{% if p.pdf != "" %}<a href="{{ p.pdf }}" target="_blank" rel="noopener">pdf</a>{% endif %}{% if p.link != "" %}<a href="{{ p.link }}" target="_blank" rel="noopener">project</a>{% endif %}</p>{% endif %}
+    {% if include.show_projects and p.projects.size > 0 %}<p class="pub-projects">Project: {% for slug in p.projects %}{% assign proj = site.projects | where_exp: "x", "x.slug == slug" | first %}{% if proj %}<a href="{{ proj.url | relative_url }}">{{ proj.title }}</a>{% unless forloop.last %}, {% endunless %}{% endif %}{% endfor %}</p>{% endif %}
+    {% if include.show_labels %}{% include direction-labels.html ids=p.directions %}{% endif %}
+  </div>
+</div>

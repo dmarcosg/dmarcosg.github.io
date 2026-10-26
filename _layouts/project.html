@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<p class="back"><a href="{{ '/projects/' | relative_url }}">All projects</a></p>
+<p class="meta">{{ page.period }}{% if page.role != "" %}<br>{{ page.role }}{% endif %}</p>
+{% if page.image != "" and page.image %}<img class="wide-image" src="{{ page.image | relative_url }}" alt="">{% endif %}
+
+<div class="prose">
+  {% assign body = content | strip_html | strip %}
+  {% if body == "" %}<p>{{ page.summary }}</p>{% else %}{{ content }}{% endif %}
+</div>
+
+{% if page.directions.size > 0 %}<p class="meta">Research direction: {% for id in page.directions %}{% assign d = site.data.directions | where: "id", id | first %}{% if d %}<a href="{{ '/research/' | relative_url }}#{{ d.id }}"><span class="dot" style="--c: {{ d.color | default: '#888' }}"></span>{{ d.title }}</a>{% unless forloop.last %}, {% endunless %}{% endif %}{% endfor %}</p>{% endif %}
+{% if page.link != "" and page.link %}<p class="meta">External page: <a href="{{ page.link }}" target="_blank" rel="noopener">{{ page.link | remove: "https://" | remove: "http://" | truncate: 60 }}</a></p>{% endif %}
+
+{% assign related = site.data.publications | where_exp: "p", "p.projects contains page.slug" %}
+{% if related.size > 0 %}
+<h2>Related publications</h2>
+{% for p in related %}{% include publication.html pub=p %}{% endfor %}
+{% endif %}
