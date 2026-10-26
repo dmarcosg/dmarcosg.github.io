@@ -14,6 +14,46 @@
   thumbnail: ""
   directions: [biodiversity]
   projects: []
+- id: houdre2026ramen
+  year: '2026'
+  title: "RAMEN: Resolution-Adjustable Multimodal Encoder for Earth Observation"
+  venue: CVPR 2026
+  authors: Houdré, Marcos, Riffaud de Turckheim, Ienco, et al.
+  pdf: "https://openaccess.thecvf.com/content/CVPR2026/papers/Houdre_RAMEN_Resolution-Adjustable_Multimodal_Encoder_for_Earth_Observation_CVPR_2026_paper.pdf"
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: jain2026timesenclip
+  year: '2026'
+  title: "TimeSenCLIP: a time series vision-language model for remote sensing"
+  venue: ISPRS Journal of Photogrammetry and Remote Sensing
+  authors: Jain, Marcos, Ienco, Interdonato, et al.
+  pdf: "https://www.sciencedirect.com/science/article/pii/S0924271626001577"
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: aniraj2026twostage
+  year: '2026'
+  title: Two-stage vision transformers and hard masking offer robust object representations
+  venue: ICPR 2026
+  authors: Aniraj, Dantas, Ienco, Marcos
+  pdf: "https://hal.science/hal-05579939/document"
+  link: ""
+  thumbnail: ""
+  directions: [interpretability]
+  projects: []
+- id: panousis2026clarity
+  year: '2026'
+  title: "Clarity: the flexibility-interpretability trade-off in sparsity-aware concept bottleneck models"
+  venue: Transactions on Machine Learning Research
+  authors: Panousis, Marcos
+  pdf: "https://arxiv.org/pdf/2601.21944"
+  link: ""
+  thumbnail: ""
+  directions: [interpretability]
+  projects: []
 - id: riffaud2025atomizer
   year: '2025'
   title: "Atomizer: generalizing to new modalities by breaking satellite images down to a set of scalars"
@@ -34,6 +74,26 @@
   thumbnail: ""
   directions: [earth-observation, biodiversity]
   projects: []
+- id: marcos2025traits
+  year: '2025'
+  title: "Fully automatic extraction of morphological traits from the web: utopia or reality?"
+  venue: Applications in Plant Sciences
+  authors: Marcos, van de Vlasakker, Athanasiadis, Bonnet, Goëau, Joly, Kissling, Leblanc, van Proosdij
+  pdf: "https://bsapubs.onlinelibrary.wiley.com/doi/pdf/10.1002/aps3.70005"
+  link: ""
+  thumbnail: ""
+  directions: [biodiversity]
+  projects: []
+- id: jain2025senclip
+  year: '2025'
+  title: "SenCLIP: enhancing zero-shot land-use mapping for Sentinel-2 with ground-level prompting"
+  venue: WACV 2025
+  authors: Jain, Ienco, Interdonato, Berchoux, Marcos
+  pdf: "https://openaccess.thecvf.com/content/WACV2025/papers/Jain_SenCLIP_Enhancing_Zero-Shot_Land-Use_Mapping_for_Sentinel-2_with_Ground-Level_Prompting_WACV_2025_paper.pdf"
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
 - id: aniraj2024pdiscoformer
   year: '2024'
   title: "PDiscoFormer: relaxing part discovery constraints with vision transformers"
@@ -49,7 +109,7 @@
   title: Coarse-to-fine concept bottleneck models
   venue: NeurIPS 2024
   authors: Panousis, Ienco, Marcos
-  pdf: ""
+  pdf: "https://proceedings.neurips.cc/paper_files/paper/2024/file/bdeab378efe6eb289714e2a5abc6ed42-Paper-Conference.pdf"
   link: ""
   thumbnail: ""
   directions: [interpretability]
@@ -64,12 +124,92 @@
   thumbnail: ""
   directions: [interpretability]
   projects: []
+- id: aniraj2023masking
+  year: '2023'
+  title: Masking strategies for background bias removal in computer vision models
+  venue: ICCV 2023 Workshops
+  authors: Aniraj, Dantas, Ienco, Marcos
+  pdf: "https://openaccess.thecvf.com/content/ICCV2023W/OODCV/papers/Aniraj_Masking_Strategies_for_Background_Bias_Removal_in_Computer_Vision_Models_ICCVW_2023_paper.pdf"
+  link: ""
+  thumbnail: ""
+  directions: [interpretability]
+  projects: []
+- id: marcos2022amil
+  year: '2022'
+  title: Attribute prediction as multiple instance learning
+  venue: Transactions on Machine Learning Research
+  authors: Marcos, Potze, Xu, Tuia, Akata
+  pdf: "https://openreview.net/pdf?id=nmFczdJtc2"
+  link: ""
+  thumbnail: ""
+  directions: [interpretability]
+  projects: []
+- id: alaniz2021trees
+  year: '2021'
+  title: Learning decision trees recurrently through communication
+  venue: CVPR 2021
+  authors: Alaniz, Marcos, Schiele, Akata
+  pdf: "https://openaccess.thecvf.com/content/CVPR2021/papers/Alaniz_Learning_Decision_Trees_Recurrently_Through_Communication_CVPR_2021_paper.pdf"
+  link: ""
+  thumbnail: ""
+  directions: [interpretability]
+  projects: []
+- id: havinga2021landscape
+  year: '2021'
+  title: Social media and deep learning capture the aesthetic quality of the landscape
+  venue: Scientific Reports
+  authors: Havinga, Marcos, Bogaart, Hein, Tuia
+  pdf: "https://www.nature.com/articles/s41598-021-99282-0.pdf"
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: masolele2021landuse
+  year: '2021'
+  title: "Spatial and temporal deep learning methods for deriving land-use following deforestation: a pan-tropical case study using Landsat time series"
+  venue: Remote Sensing of Environment
+  authors: Masolele, De Sy, Herold, Marcos, Verbesselt, Gieseke, Mullissa, Martius
+  pdf: "https://www.sciencedirect.com/science/article/pii/S0034425721003205"
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: lobry2020rsvqa
+  year: '2020'
+  title: "RSVQA: visual question answering for remote sensing data"
+  venue: IEEE Transactions on Geoscience and Remote Sensing
+  authors: Lobry, Marcos, Murray, Tuia
+  pdf: "https://arxiv.org/pdf/2003.07333"
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: kellenberger2019half
+  year: '2019'
+  title: "Half a percent of labels is enough: efficient animal detection in UAV imagery using deep CNNs and active learning"
+  venue: IEEE Transactions on Geoscience and Remote Sensing
+  authors: Kellenberger, Marcos, Lobry, Tuia
+  pdf: "https://ieeexplore.ieee.org/document/8807383"
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation, biodiversity]
+  projects: []
 - id: marcos2018contours
   year: '2018'
   title: Learning deep structured active contours end-to-end
   venue: CVPR 2018
   authors: Marcos, Tuia, Kellenberger, Zhang, Bai, Liao, Urtasun
-  pdf: ""
+  pdf: "https://openaccess.thecvf.com/content_cvpr_2018/papers/Marcos_Learning_Deep_Structured_CVPR_2018_paper.pdf"
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: marcos2018landcover
+  year: '2018'
+  title: "Land cover mapping at very high resolution with rotation equivariant CNNs: towards small yet accurate models"
+  venue: ISPRS Journal of Photogrammetry and Remote Sensing
+  authors: Marcos, Volpi, Kellenberger, Tuia
+  pdf: "https://arxiv.org/pdf/1803.06253"
   link: ""
   thumbnail: ""
   directions: [earth-observation]
@@ -79,7 +219,27 @@
   title: Rotation equivariant vector field networks
   venue: ICCV 2017
   authors: Marcos, Volpi, Komodakis, Tuia
-  pdf: ""
+  pdf: "https://arxiv.org/pdf/1612.09346"
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: marcos2016rotinv
+  year: '2016'
+  title: Learning rotation invariant convolutional filters for texture classification
+  venue: ICPR 2016
+  authors: Marcos, Volpi, Tuia
+  pdf: "https://arxiv.org/pdf/1604.06720"
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: marcos2016geospatial
+  year: '2016'
+  title: Geospatial correspondences for multimodal registration
+  venue: CVPR 2016
+  authors: Marcos, Hamid, Tuia
+  pdf: "https://openaccess.thecvf.com/content_cvpr_2016/papers/Marcos_Geospatial_Correspondences_for_CVPR_2016_paper.pdf"
   link: ""
   thumbnail: ""
   directions: [earth-observation]
