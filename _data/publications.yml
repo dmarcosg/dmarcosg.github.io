@@ -29,8 +29,8 @@
   title: "TimeSenCLIP: a time series vision-language model for remote sensing"
   venue: ISPRS Journal of Photogrammetry and Remote Sensing
   authors: Jain, Marcos, Ienco, Interdonato, et al.
-  pdf: "https://www.sciencedirect.com/science/article/pii/S0924271626001577"
-  link: ""
+  pdf: ""
+  link: "https://www.sciencedirect.com/science/article/pii/S0924271626001577"
   thumbnail: ""
   directions: [earth-observation]
   projects: []
@@ -70,7 +70,7 @@
   venue: Nature Communications
   authors: Tagle Casapia, Cardenas, Marcos, Fernández, Bartholomeus, et al.
   pdf: ""
-  link: ""
+  link: "https://www.nature.com/articles/s41467-025-58358-5"
   thumbnail: ""
   directions: [earth-observation, biodiversity]
   projects: []
