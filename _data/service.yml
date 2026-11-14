@@ -1,9 +1,61 @@
 # Editorial and conference roles, highlighted on the home page. Most recent or most important first.
 - role: Associate Editor
   venue: Computer Vision and Image Understanding (CVIU)
-  period: ""
+  period: "since 2026"
   link: ""
 - role: Area Chair
   venue: ICML 2027
+  period: ""
+  link: ""
+- role: Top Reviewer
+  venue: NeurIPS 2025
+  period: ""
+  link: "https://neurips.cc/Conferences/2025/ProgramCommittee"
+- role: Top Reviewer
+  venue: NeurIPS 2024
+  period: ""
+  link: "https://neurips.cc/Conferences/2024/ProgramCommittee"
+- role: Outstanding Reviewer
+  venue: BMVC 2024
+  period: ""
+  link: "https://bmvc2024.org/people/reviewers/"
+- role: Top-30 Reviewer
+  venue: ISPRS Journal of Photogrammetry and Remote Sensing
+  period: "2021-2022"
+  link: ""
+- role: Workshop co-organizer
+  venue: Machine Vision for Earth Observation and Environment Monitoring, BMVC
+  period: "2023, 2024"
+  link: ""
+- role: Workshop co-organizer
+  venue: Computer Vision for Environment Monitoring and Preservation, ICIAP
+  period: "2023"
+  link: ""
+- role: Workshop co-organizer
+  venue: Deep Learning for Remote Sensing, Nordic Remote Sensing Conference
+  period: "2019"
+  link: ""
+- role: Challenge co-organizer
+  venue: GeoLifeCLEF
+  period: "2023, 2024"
+  link: ""
+- role: Guest Editor
+  venue: ISPRS Open Journal of Photogrammetry and Remote Sensing, special issue on Computer Vision for Environment Monitoring and Preservation
+  period: "2023"
+  link: ""
+- role: Program committee
+  venue: ML4RS (ICLR), EarthVision (CVPR), MACLEAN (ECML/PKDD)
+  period: "2023-2024"
+  link: ""
+- role: Conference reviewer
+  venue: CVPR, ICCV, ECCV, BMVC, ICML, NeurIPS, ICLR
+  period: ""
+  link: ""
+- role: Journal reviewer
+  venue: TPAMI, IJCV, IEEE TIP, CVIU, Scientific Reports, Methods in Ecology and Evolution, Remote Sensing of Environment, ISPRS Journal, IEEE TGRS, IEEE JSTARS, IEEE GRSL, Pattern Recognition, Neurocomputing, Optics Express
+  period: ""
+  link: ""
+- role: Grant reviewer
+  venue: ANR JCJC (2024), UKRI NERC (2022), VINNOVA (2020)
   period: ""
   link: ""

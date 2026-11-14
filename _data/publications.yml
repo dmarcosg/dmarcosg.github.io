@@ -104,6 +104,46 @@
   thumbnail: ""
   directions: [earth-observation]
   projects: []
+- id: houdre2025promm
+  year: '2025'
+  title: "ProMM-RS: exploring probabilistic learning for multi-modal remote sensing image representations"
+  venue: "WACV 2025"
+  authors: "Houdré, Marcos, Ienco, Wendling, Kurtz, Lobry"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: vanbree2025hybrid
+  year: '2025'
+  title: "Hybrid phenology modeling for predicting temperature effects on tree dormancy"
+  venue: "AAAI 2025"
+  authors: "van Bree, Marcos, Athanasiadis"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: []
+  projects: []
+- id: porta2025multiscale
+  year: '2025'
+  title: "Multi-scale grouped prototypes for interpretable semantic segmentation"
+  venue: "WACV 2025"
+  authors: "Porta, Dalsasso, Marcos, Tuia"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [interpretability]
+  projects: []
+- id: zermatten2025learning
+  year: '2025'
+  title: "Learning transferable land cover semantics for open vocabulary interactions with remote sensing images"
+  venue: "ISPRS Journal of Photogrammetry and Remote Sensing"
+  authors: "Zermatten, Castillo-Navarro, Marcos, Tuia"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
 - id: aniraj2024pdiscoformer
   year: '2024'
   title: "PDiscoFormer: relaxing part discovery constraints with vision transformers"
@@ -123,6 +163,26 @@
   link: ""
   thumbnail: ""
   directions: [interpretability]
+  projects: []
+- id: masolele2024mapping
+  year: '2024'
+  title: "Mapping the diversity of land uses following deforestation across Africa"
+  venue: "Scientific Reports"
+  authors: "Masolele, Marcos, De Sy, Abu, Verbesselt, Reiche, Herold"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: havinga2024sentiment
+  year: '2024'
+  title: "Understanding the sentiment associated with cultural ecosystem services using images and text from social media"
+  venue: "Ecosystem Services"
+  authors: "Havinga, Marcos, Bogaart, Tuia, Hein"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [biodiversity]
   projects: []
 - id: vanderklis2023pdisconet
   year: '2023'
@@ -144,6 +204,56 @@
   thumbnail: ""
   directions: [interpretability]
   projects: []
+- id: havinga2023preferences
+  year: '2023'
+  title: "Social media and deep learning reveal specific cultural preferences for biodiversity"
+  venue: "People and Nature"
+  authors: "Havinga, Marcos, Bogaart, Massimino, Hein, Tuia"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [biodiversity]
+  projects: []
+- id: paudel2023interpretability
+  year: '2023'
+  title: "Interpretability of deep learning models for crop yield forecasting"
+  venue: "Computers and Electronics in Agriculture"
+  authors: "Paudel, de Wit, Boogaard, Marcos, Osinga, Athanasiadis"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [interpretability]
+  projects: []
+- id: paudel2023weakly
+  year: '2023'
+  title: "A weakly supervised framework for high-resolution crop yield forecasts"
+  venue: "Environmental Research Letters"
+  authors: "Paudel, Marcos, de Wit, Boogaard, Athanasiadis"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: levering2023liveability
+  year: '2023'
+  title: "Predicting the liveability of Dutch cities with aerial images and semantic intermediate concepts"
+  venue: "Remote Sensing of Environment"
+  authors: "Levering, Marcos, van Vliet, Tuia"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: slagter2023monitoring
+  year: '2023'
+  title: "Monitoring direct drivers of small-scale tropical forest disturbance in near real-time with Sentinel-1 and -2 data"
+  venue: "Remote Sensing of Environment"
+  authors: "Slagter, Reiche, Marcos, et al."
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
 - id: marcos2022amil
   year: '2022'
   title: Attribute prediction as multiple instance learning
@@ -153,6 +263,26 @@
   link: ""
   thumbnail: ""
   directions: [interpretability]
+  projects: []
+- id: alaniz2022sketches
+  year: '2022'
+  title: "Abstracting sketches through simple primitives"
+  venue: "ECCV 2022"
+  authors: "Alaniz, Mancini, Dutta, Marcos, Akata"
+  pdf: "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136890392.pdf"
+  link: ""
+  thumbnail: ""
+  directions: [interpretability]
+  projects: []
+- id: masolele2022ethiopia
+  year: '2022'
+  title: "Using high-resolution imagery and deep learning to classify land-use following deforestation: a case study in Ethiopia"
+  venue: "GIScience & Remote Sensing"
+  authors: "Masolele, De Sy, Marcos, Verbesselt, et al."
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
   projects: []
 - id: alaniz2021trees
   year: '2021'
@@ -184,6 +314,36 @@
   thumbnail: ""
   directions: [earth-observation]
   projects: []
+- id: levering2021beauty
+  year: '2021'
+  title: "On the relation between landscape beauty and land cover: a case study in the UK at Sentinel-2 resolution with interpretable AI"
+  venue: "ISPRS Journal of Photogrammetry and Remote Sensing"
+  authors: "Levering, Marcos, Tuia"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation, interpretability]
+  projects: []
+- id: maggiolo2021semisupervised
+  year: '2021'
+  title: "A semisupervised CRF model for CNN-based semantic segmentation with sparse ground truth"
+  venue: "IEEE Transactions on Geoscience and Remote Sensing"
+  authors: "Maggiolo, Marcos, Moser, Serpico, Tuia"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: hua2021sparse
+  year: '2021'
+  title: "Semantic segmentation of remote sensing images with sparse annotations"
+  venue: "IEEE Geoscience and Remote Sensing Letters"
+  authors: "Hua, Marcos, Mou, Zhu, Tuia"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
 - id: lobry2020rsvqa
   year: '2020'
   title: "RSVQA: visual question answering for remote sensing data"
@@ -194,6 +354,36 @@
   thumbnail: ""
   directions: [earth-observation]
   projects: []
+- id: hughes2020sar
+  year: '2020'
+  title: "A deep learning framework for matching of SAR and optical imagery"
+  venue: "ISPRS Journal of Photogrammetry and Remote Sensing"
+  authors: "Hughes, Marcos, Lobry, Tuia, Schmitt"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: mullissa2020despecknet
+  year: '2020'
+  title: "DeSpeckNet: generalizing deep learning-based SAR image despeckling"
+  venue: "IEEE Transactions on Geoscience and Remote Sensing"
+  authors: "Mullissa, Marcos, Tuia, Herold, Reiche"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: marcos2020contextual
+  year: '2020'
+  title: "Contextual semantic interpretability"
+  venue: "ACCV 2020"
+  authors: "Marcos, Fong, Lobry, Flamary, Courty, Tuia"
+  pdf: "https://arxiv.org/pdf/2009.08720"
+  link: ""
+  thumbnail: ""
+  directions: [interpretability]
+  projects: []
 - id: kellenberger2019half
   year: '2019'
   title: "Half a percent of labels is enough: efficient animal detection in UAV imagery using deep CNNs and active learning"
@@ -203,6 +393,16 @@
   link: ""
   thumbnail: ""
   directions: [earth-observation, biodiversity]
+  projects: []
+- id: marcos2019siam
+  year: '2019'
+  title: "Semantically interpretable activation maps: what-where-how explanations within CNNs"
+  venue: "ICCV 2019 Workshops"
+  authors: "Marcos, Lobry, Tuia"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [interpretability]
   projects: []
 - id: marcos2018contours
   year: '2018'
@@ -223,6 +423,16 @@
   link: ""
   thumbnail: ""
   directions: [earth-observation]
+  projects: []
+- id: kellenberger2018mammals
+  year: '2018'
+  title: "Detecting mammals in UAV images: best practices to address a substantially imbalanced dataset with deep learning"
+  venue: "Remote Sensing of Environment"
+  authors: "Kellenberger, Marcos, Tuia"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation, biodiversity]
   projects: []
 - id: marcos2017rotation
   year: '2017'
@@ -253,4 +463,24 @@
   link: ""
   thumbnail: ""
   directions: [earth-observation]
+  projects: []
+- id: tuia2016multitemporal
+  year: '2016'
+  title: "Multi-temporal and multi-source remote sensing image classification by nonlinear relative normalization"
+  venue: "ISPRS Journal of Photogrammetry and Remote Sensing"
+  authors: "Tuia, Marcos, Camps-Valls"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: [earth-observation]
+  projects: []
+- id: marcos2016compressed
+  year: '2016'
+  title: "Compressed imaging by sparse random convolution"
+  venue: "Optics Express"
+  authors: "Marcos, Lasser, López, Bourquard"
+  pdf: ""
+  link: ""
+  thumbnail: ""
+  directions: []
   projects: []

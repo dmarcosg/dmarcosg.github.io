@@ -14,7 +14,7 @@ current:
   website: ""
 - name: Jonas Klotz
   role: PhD student, BIFOLD / TU Berlin
-  note: Computer vision interpretability in remote sensing (co-supervised with Begüm Demir, Cassio Fraga-Dantas, Pallavi Jain and Konstatinos Panousis)
+  note: Computer vision interpretability in remote sensing (co-supervised with Begüm Demir, Cassio Fraga-Dantas, Pallavi Jain and Konstantinos Panousis)
   website: ""
 - name: Ananthu Aniraj
   role: Postdoctoral researcher, Inria
@@ -24,6 +24,10 @@ current:
   role: Research engineer, Inria
   note: Foundation models for Earth observation (co-supervised with Roberto Interdonato)
   website: "https://noeflandre.com/"
+- name: Timothée Stassin
+  role: Postdoctoral researcher, GFZ Potsdam
+  note: Automated assistance for the FAO global forest assessment (co-supervised with Martin Herold)
+  website: ""
 - name: Ron van Bree
   role: PhD student, Wageningen University
   note: Hybrid AI for crop modeling (co-supervised with Ioannis Athanasiadis)
@@ -46,11 +50,11 @@ alumni:
   note: Text/satellite cross-modal self-supervised learning (co-supervised with Tristan Berchoux, Dino Ienco, and Roberto Interdonato)
   website: ""
 - name: Konstantinos Panousis
-  role: Postdoc, Inria (2023-2025)
+  role: Postdoc, Inria (2023-2025), now assistant professor at the University of Athens
   note: Probabilistic concept bottleneck models
   website: ""
 - name: Maxime Ryckewaert
-  role: Postdoc, Inria (2023-2025)
+  role: Postdoc, Inria (2023-2025), now researcher at Cirad
   note: Deep learning for ecological modeling (co-supervised with Alexis Joly)
   website: ""
 - name: Laura Cue
