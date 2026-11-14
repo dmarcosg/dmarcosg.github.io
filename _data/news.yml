@@ -1,5 +1,9 @@
 # News items, most recent first.
 - date: '2026'
+  text: "Five new papers: RAMEN (CVPR 2026), an ECCV 2026 paper on evaluating sparse autoencoder interpretability, two-stage vision transformers (ICPR 2026), Clarity (TMLR) and TimeSenCLIP (ISPRS Journal of Photogrammetry and Remote Sensing)."
+- date: '2026'
+  text: Ananthu Aniraj defended his PhD (March 2026) and stays in the team as a postdoc. Valerie Zermatten (EPFL), co-supervised with Devis Tuia, defended hers in May 2026.
+- date: '2026'
   text: ANR JCJC project eTaxonomist (Open-World Species Identification by Emulating Experts) funded (2026-2030).
 - date: '2026'
   text: AgriScienceFM, a €6M Horizon Europe project on AI foundation models for agriculture, was funded (2026-2029).
@@ -9,3 +13,15 @@
   text: New paper in Nature Communications on drone-based mapping of palm species in the Peruvian Amazon.
 - date: '2024'
   text: "Two papers accepted: PDiscoFormer (ECCV 2024) and Coarse-to-fine concept bottleneck models (NeurIPS 2024)."
+- date: '2022'
+  text: Recognized among the Top-30 reviewers of the ISPRS Journal of Photogrammetry and Remote Sensing.
+- date: '2021'
+  text: Awarded a DAAD Postdoc-Net-AI fellowship.
+- date: '2019'
+  text: Best paper award at the CVPR EarthVision workshop.
+- date: '2019'
+  text: Defended my PhD at Wageningen University with the highest distinction (cum laude, top 3% of theses at the university).
+- date: '2019'
+  text: Selected for the ICCV Doctoral Consortium.
+- date: '2019'
+  text: Cyril Wendl, an MSc student I supervised, received the IGSO Best MSc Thesis award.

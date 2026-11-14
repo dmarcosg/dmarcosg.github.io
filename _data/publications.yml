@@ -18,7 +18,7 @@
   year: '2026'
   title: "RAMEN: Resolution-Adjustable Multimodal Encoder for Earth Observation"
   venue: CVPR 2026
-  authors: Houdré, Marcos, Riffaud de Turckheim, Ienco, et al.
+  authors: Houdré, Marcos, Riffaud de Turckheim, Ienco, Wendling, Kurtz, Lobry
   pdf: "https://openaccess.thecvf.com/content/CVPR2026/papers/Houdre_RAMEN_Resolution-Adjustable_Multimodal_Encoder_for_Earth_Observation_CVPR_2026_paper.pdf"
   link: ""
   thumbnail: ""
@@ -29,8 +29,8 @@
   title: "TimeSenCLIP: a time series vision-language model for remote sensing"
   venue: ISPRS Journal of Photogrammetry and Remote Sensing
   authors: Jain, Marcos, Ienco, Interdonato, et al.
-  pdf: ""
-  link: "https://www.sciencedirect.com/science/article/pii/S0924271626001577"
+  pdf: "https://www.sciencedirect.com/science/article/pii/S0924271626001577"
+  link: ""
   thumbnail: ""
   directions: [earth-observation]
   projects: []
@@ -40,6 +40,16 @@
   venue: ICPR 2026
   authors: Aniraj, Dantas, Ienco, Marcos
   pdf: "https://hal.science/hal-05579939/document"
+  link: ""
+  thumbnail: ""
+  directions: [interpretability]
+  projects: []
+- id: klotz2026sae
+  year: '2026'
+  title: Evaluating the interpretability of sparse autoencoders with concept annotations
+  venue: ECCV 2026
+  authors: Klotz, Dantas, Jain, Marcos, Demir
+  pdf: "https://hal.science/hal-05769136v1/file/14463_Evaluating_the_Interpret_Final.pdf"
   link: ""
   thumbnail: ""
   directions: [interpretability]
@@ -70,7 +80,7 @@
   venue: Nature Communications
   authors: Tagle Casapia, Cardenas, Marcos, Fernández, Bartholomeus, et al.
   pdf: ""
-  link: "https://www.nature.com/articles/s41467-025-58358-5"
+  link: ""
   thumbnail: ""
   directions: [earth-observation, biodiversity]
   projects: []
@@ -109,7 +119,7 @@
   title: Coarse-to-fine concept bottleneck models
   venue: NeurIPS 2024
   authors: Panousis, Ienco, Marcos
-  pdf: "https://proceedings.neurips.cc/paper_files/paper/2024/file/bdeab378efe6eb289714e2a5abc6ed42-Paper-Conference.pdf"
+  pdf: ""
   link: ""
   thumbnail: ""
   directions: [interpretability]
