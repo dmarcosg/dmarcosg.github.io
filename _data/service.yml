@@ -25,7 +25,7 @@
   link: ""
 - role: Workshop co-organizer
   venue: Machine Vision for Earth Observation and Environment Monitoring, BMVC
-  period: "2023, 2024"
+  period: "2023-2026"
   link: ""
 - role: Workshop co-organizer
   venue: Computer Vision for Environment Monitoring and Preservation, ICIAP
@@ -45,7 +45,7 @@
   link: ""
 - role: Program committee
   venue: ML4RS (ICLR), EarthVision (CVPR), MACLEAN (ECML/PKDD)
-  period: "2023-2024"
+  period: ""
   link: ""
 - role: Conference reviewer
   venue: CVPR, ICCV, ECCV, BMVC, ICML, NeurIPS, ICLR

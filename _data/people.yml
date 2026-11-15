@@ -2,28 +2,28 @@
 current:
 - name: Pablo Ubilla
   role: PhD student, Inria
-  note: Robust deep species distribution models (co-supervised with Christophe Botella and Alexis Joly)
+  note: Robust deep species distribution models (main supervisor, with Christophe Botella and Alexis Joly)
   website: ""
 - name: Hugo Riffaud de Turckheim
   role: PhD student, Inria
-  note: Foundation models for Earth observation (co-supervised with Sylvain Lobry and Roberto Interdonato)
+  note: Foundation models for Earth observation (main supervisor, with Sylvain Lobry and Roberto Interdonato)
   website: ""
 - name: Nicolas Houdré
   role: PhD student, Université Paris Cité
   note: Foundation models for Earth observation (co-supervised with Sylvain Lobry, Camille Kurtz, Laurent Wendling and Dino Ienco)
   website: ""
 - name: Jonas Klotz
-  role: PhD student, BIFOLD / TU Berlin
-  note: Computer vision interpretability in remote sensing (co-supervised with Begüm Demir, Cassio Fraga-Dantas, Pallavi Jain and Konstantinos Panousis)
+  role: Visiting PhD student (January-April 2027), BIFOLD / TU Berlin
+  note: "Computer vision interpretability in remote sensing (official supervisor: Begüm Demir; supervised here with Cassio Fraga-Dantas)"
   website: ""
-- name: Ananthu Aniraj
-  role: Postdoctoral researcher, Inria
-  note: Interpretable fine-grained recognition
-  website: "https://ananthu-aniraj.github.io/"
 - name: Noé Flandre
   role: Research engineer, Inria
-  note: Foundation models for Earth observation (co-supervised with Roberto Interdonato)
+  note: Foundation models for Earth observation (main supervisor, with Roberto Interdonato)
   website: "https://noeflandre.com/"
+- name: Timothée Bonte
+  role: Research engineer, Inria
+  note: Foundation models for agriculture, AgriScienceFM project (co-supervised with Roberto Interdonato)
+  website: ""
 - name: Timothée Stassin
   role: Postdoctoral researcher, GFZ Potsdam
   note: Automated assistance for the FAO global forest assessment (co-supervised with Martin Herold)
@@ -33,25 +33,33 @@ current:
   note: Hybrid AI for crop modeling (co-supervised with Ioannis Athanasiadis)
   website: ""
 alumni:
+- name: Ananthu Aniraj
+  role: PhD, Inria (2023-2026)
+  note: Explainable image classification through supervised and unsupervised part detection (awarded March 2026; main supervisor, with Dino Ienco and Cassio F. Dantas)
+  website: "https://ananthu-aniraj.github.io/"
+- name: Ximena Tagle
+  role: PhD, Wageningen University (2018-2026)
+  note: "Fantastic palm fruits and where to find them: integrating UAV imagery to map ecologically and economically important palms in the tropics (awarded November 2026; co-supervised with Martin Herold and Harm Bartholomeus)"
+  website: ""
 - name: Valerie Zermatten
   role: PhD, EPFL (2021-2026)
-  note: Mapping ecosystems with deep learning and extremely multi-modal data (awarded May 2026)
+  note: Mapping ecosystems with deep learning and extremely multi-modal data (awarded May 2026; co-supervised with Devis Tuia, the main supervisor, and Javiera Castillo)
   website: ""
 - name: Alex Levering
   role: PhD, Wageningen University (2019-2024)
-  note: Landscape quality assessments using deep learning (awarded January 2024)
+  note: Landscape quality assessments using deep learning (awarded January 2024; co-supervised with Devis Tuia, the main supervisor)
   website: ""
 - name: Robert Masolele
   role: PhD, Wageningen University (2019-2023)
-  note: Assessing land use following tropical deforestation (awarded April 2023)
+  note: Assessing land use following tropical deforestation (awarded April 2023; co-supervised with Martin Herold and Vicky de Sy, the main supervisors, and Jan Verbesselt)
   website: ""
 - name: Pallavi Jain
   role: Postdoc, CIHEAM-IAMM and Inria (2023-2026)
-  note: Text/satellite cross-modal self-supervised learning (co-supervised with Tristan Berchoux, Dino Ienco, and Roberto Interdonato)
+  note: Text/satellite cross-modal self-supervised learning (main supervisor, with Tristan Berchoux, Dino Ienco, and Roberto Interdonato)
   website: ""
 - name: Konstantinos Panousis
   role: Postdoc, Inria (2023-2025), now assistant professor at the University of Athens
-  note: Probabilistic concept bottleneck models
+  note: Probabilistic concept bottleneck models (main supervisor, with Dino Ienco)
   website: ""
 - name: Maxime Ryckewaert
   role: Postdoc, Inria (2023-2025), now researcher at Cirad
@@ -77,7 +85,7 @@ collaborators:
 - name: Roberto Interdonato
   affiliation: Cirad, UMR TETIS / EVERGREEN Inria team
   note: ""
-  website: ""
+  website: "https://sites.google.com/view/interdonato/"
 - name: Ioannis Athanasiadis
   affiliation: Wageningen University
   note: ""
@@ -97,8 +105,8 @@ collaborators:
 - name: Pierre Bonnet
   affiliation: Cirad, UMR AMAP
   note: ""
-  website: ""
+  website: "https://agents.cirad.fr/Pierre+BONNET"
 - name: Cassio F. Dantas
   affiliation: INRAE, UMR TETIS / EVERGREEN Inria team
   note: ""
-  website: ""
+  website: "https://cassiofragadantas.github.io/"
