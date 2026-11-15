@@ -2,11 +2,11 @@
 title: Generalized Earth Observation with Remote Sensing and Text (GEO-ReSeT)
 period: 2023-2027 · ANR TSIA program
 role: Project co-leader, with Sylvain Lobry (Université Paris Cité)
-summary: A €593,269 project with Camille Kurtz, Laurent Wendling (Université Paris Cité), and Dino Ienco (INRAE), exploring how remote sensing imagery can be linked with natural language to build more general, more accessible Earth observation models.
-link: ""
+summary: A €593,269 project with Camille Kurtz, Laurent Wendling (Université Paris Cité), and Dino Ienco (INRAE), exploring how remote sensing imagery can be linked with natural language to build more general, more accessible Earth observation models. It aims at developing architectures suitable for EO foundation models that can take heterogeneous data modalities as input.
+link: "https://geo-reset.sylvainlobry.com"
 image: ""
 directions: [earth-observation]
-order: 4
+order: 6
 ---
 
 <!-- Write the full project page below in Markdown (text, images, links).

@@ -3,7 +3,7 @@ current:
 - name: Pablo Ubilla
   role: PhD student, Inria
   note: Robust deep species distribution models (main supervisor, with Christophe Botella and Alexis Joly)
-  website: ""
+  website: "https://pabloubilla.github.io/"
 - name: Hugo Riffaud de Turckheim
   role: PhD student, Inria
   note: Foundation models for Earth observation (main supervisor, with Sylvain Lobry and Roberto Interdonato)
@@ -15,7 +15,7 @@ current:
 - name: Jonas Klotz
   role: Visiting PhD student (January-April 2027), BIFOLD / TU Berlin
   note: "Computer vision interpretability in remote sensing (official supervisor: Begüm Demir; supervised here with Cassio Fraga-Dantas)"
-  website: ""
+  website: "https://jonasklotz.com"
 - name: Noé Flandre
   role: Research engineer, Inria
   note: Foundation models for Earth observation (main supervisor, with Roberto Interdonato)
@@ -44,11 +44,11 @@ alumni:
 - name: Valerie Zermatten
   role: PhD, EPFL (2021-2026)
   note: Mapping ecosystems with deep learning and extremely multi-modal data (awarded May 2026; co-supervised with Devis Tuia, the main supervisor, and Javiera Castillo)
-  website: ""
+  website: "https://zvalerie.github.io/"
 - name: Alex Levering
   role: PhD, Wageningen University (2019-2024)
   note: Landscape quality assessments using deep learning (awarded January 2024; co-supervised with Devis Tuia, the main supervisor)
-  website: ""
+  website: "https://ahlevering.github.io/"
 - name: Robert Masolele
   role: PhD, Wageningen University (2019-2023)
   note: Assessing land use following tropical deforestation (awarded April 2023; co-supervised with Martin Herold and Vicky de Sy, the main supervisors, and Jan Verbesselt)
@@ -58,9 +58,9 @@ alumni:
   note: Text/satellite cross-modal self-supervised learning (main supervisor, with Tristan Berchoux, Dino Ienco, and Roberto Interdonato)
   website: ""
 - name: Konstantinos Panousis
-  role: Postdoc, Inria (2023-2025), now assistant professor at the University of Athens
+  role: Postdoc, Inria (2023-2025), now assistant professor at the Athens University of Economics and Business
   note: Probabilistic concept bottleneck models (main supervisor, with Dino Ienco)
-  website: ""
+  website: "https://panousis.stat.aueb.gr/"
 - name: Maxime Ryckewaert
   role: Postdoc, Inria (2023-2025), now researcher at Cirad
   note: Deep learning for ecological modeling (co-supervised with Alexis Joly)
@@ -68,7 +68,7 @@ alumni:
 - name: Laura Cue
   role: Postdoc, Wageningen University (2022-2025)
   note: Predicting deforestation using satellite data and AI (co-supervised with Johannes Reiche)
-  website: ""
+  website: "https://www.wur.nl/en/persons/le-laura-cue-la-rosa"
 collaborators:
 - name: Devis Tuia
   affiliation: EPFL, ECEO lab
@@ -101,7 +101,7 @@ collaborators:
 - name: Christophe Botella
   affiliation: Inria
   note: ""
-  website: ""
+  website: "http://christophebotella.fr/"
 - name: Pierre Bonnet
   affiliation: Cirad, UMR AMAP
   note: ""
